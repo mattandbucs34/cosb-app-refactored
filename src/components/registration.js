@@ -63,6 +63,10 @@ class Registration extends Component {
     }
   }
 
+/*  This page renders information for users to register for the current softball year.
+//  Data will be populated for users to review an edit prior to submission.
+*/
+
 
   render() {
     return(

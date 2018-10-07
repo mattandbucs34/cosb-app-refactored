@@ -9,6 +9,13 @@ import './css/cosb-media568.css';
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isAdmin = false
+    }
+  }
 
   showMobileMenu() {
     var x = document.getElementById("sb-navbar");
